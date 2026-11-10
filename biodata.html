@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bio-data | Abdul Kader Sanish</title>
+  <meta name="description" content="Personal bio-data of Abdul Kader Sanish - B.E. Computer Science Engineering student, Kasaragod, Kerala." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css?v=7" />
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">AS</span>
+        <span class="brand-text">Abdul Kader <strong>Sanish</strong></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="primaryNav" aria-label="Primary">
+        <a href="index.html">Resume</a>
+        <a href="biodata.html" class="is-active">Bio-data</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <p class="crumbs"><a href="index.html">Home</a> / Bio-data</p>
+        <h1>Personal bio-data</h1>
+        <p>Personal and academic details presented in a standard bio-data format. Use the print button for a clean A4 copy.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="bio-layout">
+          <!-- LEFT: photo + quick summary -->
+          <aside class="bio-side">
+            <div class="bio-photo reveal">
+              <img src="assets/photo.jpg" alt="Portrait of Abdul Kader Sanish" width="150" height="150"
+                   onerror="this.onerror=null; this.src='assets/avatar.svg';" />
+              <h2>Abdul Kader Sanish</h2>
+              <p>B.E. Computer Science<br />3rd Year · P. A. College of Engineering</p>
+              <p style="margin-top:12px">
+                <span class="chip" style="margin:0">Kasaragod, Kerala</span>
+              </p>
+            </div>
+
+            <div class="card reveal">
+              <h3>In one line</h3>
+              <p class="muted" style="font-size:.93rem">
+                A patient, detail-oriented engineering student who likes breaking problems down until
+                the solution looks obvious.
+              </p>
+            </div>
+
+            <div class="card reveal">
+              <h3>Quick actions</h3>
+              <div style="display:flex;flex-wrap:wrap;gap:9px;margin-top:12px">
+                <button class="btn btn-primary" onclick="window.print()">Print bio-data</button>
+                <a class="btn btn-ghost" href="index.html">View resume</a>
+              </div>
+            </div>
+          </aside>
+
+          <!-- RIGHT: data tables -->
+          <div>
+            <div class="table-card reveal" style="margin-bottom:24px">
+              <h2>Personal information</h2>
+              <table class="data-table">
+                <caption>Basic identity and contact details</caption>
+                <tbody>
+                  <tr><th scope="row">Full name</th><td>Abdul Kader Sanish</td></tr>
+                  <tr><th scope="row">Date of birth</th><td>29-12-2005</td></tr>
+                  <tr><th scope="row">Age</th><td>20 years</td></tr>
+                  <tr><th scope="row">Gender</th><td>Male</td></tr>
+                  <tr><th scope="row">Nationality</th><td>Indian</td></tr>
+                  <tr><th scope="row">Marital status</th><td>Unmarried</td></tr>
+                  <tr><th scope="row">Blood group</th><td>B+</td></tr>
+                  <tr><th scope="row">Mother tongue</th><td>Malayalam</td></tr>
+                  <tr><th scope="row">Languages known</th><td>English, Malayalam, Hindi, Kannada (conversational)</td></tr>
+                  <tr><th scope="row">Hobbies</th><td>Programming practice, chess, football, technology videos</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="table-card reveal" style="margin-bottom:24px">
+              <h2>Contact information</h2>
+              <table class="data-table">
+                <caption>Where you can reach me</caption>
+                <tbody>
+                  <tr><th scope="row">Mobile</th><td><a href="tel:+919895064529">+91 98950 64529</a></td></tr>
+                  <tr><th scope="row">Email</th><td><a href="mailto:sanishabdulkader@gmail.com">sanishabdulkader@gmail.com</a></td></tr>
+                  <tr><th scope="row">Current address</th><td>P. A. College of Engineering hostel, Mangalore, Karnataka</td></tr>
+                  <tr><th scope="row">Permanent address</th><td>Uppala, Kasaragod District, Kerala 671322</td></tr>
+                  <tr><th scope="row">LinkedIn</th><td><a href="https://linkedin.com/in/abdul-kader-sanish" target="_blank" rel="noopener">linkedin.com/in/abdul-kader-sanish</a></td></tr>
+                  <tr><th scope="row">GitHub</th><td><a href="https://github.com/sanishabdulkader-arch" target="_blank" rel="noopener">github.com/sanishabdulkader-arch</a></td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="table-card reveal" style="margin-bottom:24px">
+              <h2>Academic record</h2>
+              <table class="data-table">
+                <caption>Course, institution, year and score</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Institution</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>B.E. Computer Science &amp; Engineering</td><td>P. A. College of Engineering, Mangalore (VTU)</td><td>2024–2028</td><td>CGPA 8.27</td></tr>
+                  <tr><td>Pre-University Course (PUC)</td><td>St Ann's PU College</td><td>2023–2024</td><td>88%</td></tr>
+                  <tr><td>Secondary (SSLC)</td><td>A.J.I English Medium School</td><td>2022</td><td>82%</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="table-card reveal">
+              <h2>Strengths &amp; interests</h2>
+              <table class="data-table">
+                <tbody>
+                  <tr><th scope="row">Strengths</th><td>Communication, problem solving, teamwork, discipline, willingness to learn</td></tr>
+                  <tr><th scope="row">Career interest</th><td>AI, IoT and software development; C programming and web basics</td></tr>
+                  <tr><th scope="row">Extra-curricular</th><td>Hackathons (FUSION TECHATHON 4.0), robotics workshops, college technical events, sports</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="declaration reveal">
+              <strong>Declaration</strong>
+              I hereby declare that the information given above is true and correct to the best of my knowledge
+              and belief.
+              <p style="margin-top:14px; font-weight:600; color:var(--ink)">Abdul Kader Sanish · Uppala</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Abdul Kader Sanish. Built with HTML, CSS, JavaScript &amp; jQuery.</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Resume</a>
+        <a href="biodata.html">Bio-data</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/app.js?v=7"></script>
+</body>
+</html>
